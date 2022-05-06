@@ -1,0 +1,15 @@
+create table hibernate_sequence (next_val bigint) engine=InnoDB;
+insert into hibernate_sequence values ( 1 );
+create table user_model (id integer not null, num1 varchar(255), num2 varchar(255), op varchar(255), res varchar(255), primary key (id)) engine=InnoDB;
+create table calcy (id integer not null, num1 varchar(255), num2 varchar(255), op varchar(255), res varchar(255), primary key (id)) engine=InnoDB;
+create table hibernate_sequence (next_val bigint) engine=InnoDB;
+insert into hibernate_sequence values ( 1 );
+create table hibernate_sequence (next_val bigint) engine=InnoDB;
+insert into hibernate_sequence values ( 1 );
+create table user_model (id integer not null, name varchar(255), num2 varchar(255), op varchar(255), res varchar(255), primary key (id)) engine=InnoDB;
+create table hibernate_sequence (next_val bigint) engine=InnoDB;
+insert into hibernate_sequence values ( 1 );
+create table user_model (id integer not null, name varchar(255), num2 varchar(255), op varchar(255), res varchar(255), primary key (id)) engine=InnoDB;
+create table hibernate_sequence (next_val bigint) engine=InnoDB;
+insert into hibernate_sequence values ( 1 );
+create table user_model (id integer not null, name varchar(255), num2 varchar(255), op varchar(255), res varchar(255), primary key (id)) engine=InnoDB;
